@@ -1,0 +1,1 @@
+SELECT (SELECT COUNT(*) FROM members WHERE category= 'F') AS Faculty ,(SELECT COUNT(*) FROM members WHERE category= 'S') AS Student ,(SELECT COUNT(*) FROM members WHERE category= 'O') AS Other;

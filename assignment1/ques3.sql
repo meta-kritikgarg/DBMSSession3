@@ -1,0 +1,1 @@
+SELECT COUNT( DISTINCT accession_no) FROM book_issue;
